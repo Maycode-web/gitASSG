@@ -1,0 +1,84 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.courses{
+    /* border: 1px solid black; */
+    margin: 30px 0;
+}
+
+
+.coursetab{
+   /* border: 1px solid red; */
+   width: 80%;
+   min-height: 80dvh;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.inner-coursetab{
+   border: 1px solid;
+   width: 30%;
+}
+.coursetab1{
+   /* border: 1px solid red; */
+   width: 30%;
+   
+}
+.coursetab1 h1{
+   font-size: 20px;
+}
+
+.coursetab1 p{
+   border-bottom: 1px solid lightblue;
+   font-size: 20px;
+   /* gap: 100px; */
+   padding: 10px;
+}
+
+.coursetab2{
+   width: 30%;  
+}
+
+.coursetab2 h1{
+   font-size: 20px;
+}
+
+.coursetab2 p{
+   border-bottom: 1px solid lightblue;
+   font-size: 20px;
+   /* gap: 100px; */
+   padding: 10px;
+
+}
+
+.coursetab3{
+   width: 30%;
+}
+
+.coursetab3 h1{
+   font-size: 20px;
+}
+
+.coursetab3 p{
+   border-bottom: 1px solid lightblue;
+   font-size: 20px;
+   /* gap: 100px; */
+   padding: 10px;
+
+
+}
+
+
+/* tablet */
+
+@media screen and (max-width:768px) {
+   .boxb{
+       flex-wrap: wrap;
+       gap: 20px 10px;
+    }
+}
